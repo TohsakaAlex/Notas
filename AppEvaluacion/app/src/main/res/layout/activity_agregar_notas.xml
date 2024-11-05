@@ -9,7 +9,7 @@
     tools:context=".AgregarNotas">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txt_tituloPaginaNota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -28,6 +28,7 @@
         android:ems="10"
         android:hint="Titulo"
         android:inputType="text"
+        android:textColor="@color/white"
         android:textColorHint="@color/material_dynamic_neutral30"
         app:layout_constraintBottom_toTopOf="@+id/txt_Nota_contenido"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,15 +42,16 @@
         android:layout_marginBottom="112dp"
         android:ems="10"
         android:gravity="top"
+        android:textColor="@color/white"
         android:hint="Escribe tu nota aqui"
         android:inputType="textMultiLine"
         android:textColorHint="@color/material_dynamic_neutral30"
-        app:layout_constraintBottom_toTopOf="@+id/btn_agregarNota"
+        app:layout_constraintBottom_toTopOf="@+id/btn_GuardarNota"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_agregarNota"
+        android:id="@+id/btn_GuardarNota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="64dp"
