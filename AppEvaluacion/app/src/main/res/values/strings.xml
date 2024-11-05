@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppEvaluacion</string>
+    <string name="txt_login_IniciarSesion">Iniciar sesión</string>
+    <string name="btn_login_inicioSesion">Iniciar Sesión</string>
+    <string name="btn_login_CrearCuenta">Crear Cuenta</string>
+    <string name="txt_login_sugerencia">No tienes una cuenta?, Crea una</string>
+    <string name="btn_CrearCuenta" />
+    <string name="txt_crear_sugerencia">Ya tienes una cuenta?, Inicia sesión con ella</string>
+    <string name="txt_titulo_CrearCuenta">Crear cuenta</string>
+    <string name="TituloNota">Notas</string>
+    <string name="btn_crearNota">Crear una nota</string>
+    <string name="btn_ListaNotas">Listado de notas</string>
+    <string name="NotasTitulo">Titulo</string>
+    <string name="btn_GuardarNota">Guardar</string>
+    <string name="btn_recuperar_Nota">"Recuperar "</string>
+    <string name="AgregarNota">Añade un nota</string>
+</resources>
